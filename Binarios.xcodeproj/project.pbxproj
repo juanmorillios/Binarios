@@ -12,6 +12,7 @@
 		873CAFB120ACC2B00012D2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873CAFAF20ACC2B00012D2BA /* Main.storyboard */; };
 		873CAFB320ACC2B10012D2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873CAFB220ACC2B10012D2BA /* Assets.xcassets */; };
 		873CAFB620ACC2B10012D2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873CAFB420ACC2B10012D2BA /* LaunchScreen.storyboard */; };
+		873CAFBE20ACCE4E0012D2BA /* BinaryDecimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873CAFBD20ACCE4E0012D2BA /* BinaryDecimal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		873CAFB220ACC2B10012D2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873CAFB520ACC2B10012D2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873CAFB720ACC2B10012D2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873CAFBD20ACCE4E0012D2BA /* BinaryDecimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDecimal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		873CAFAA20ACC2B00012D2BA /* Binarios */ = {
 			isa = PBXGroup;
 			children = (
+				873CAFBF20ACCE570012D2BA /* Model */,
 				873CAFAB20ACC2B00012D2BA /* AppDelegate.swift */,
 				873CAFAD20ACC2B00012D2BA /* ViewController.swift */,
 				873CAFAF20ACC2B00012D2BA /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				873CAFB720ACC2B10012D2BA /* Info.plist */,
 			);
 			path = Binarios;
+			sourceTree = "<group>";
+		};
+		873CAFBF20ACCE570012D2BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				873CAFBD20ACCE4E0012D2BA /* BinaryDecimal.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873CAFBE20ACCE4E0012D2BA /* BinaryDecimal.swift in Sources */,
 				873CAFAE20ACC2B00012D2BA /* ViewController.swift in Sources */,
 				873CAFAC20ACC2B00012D2BA /* AppDelegate.swift in Sources */,
 			);

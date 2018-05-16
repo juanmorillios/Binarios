@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         valueEntryTextField.attributedPlaceholder = placeHolder
         valueEntryTextField.addTarget(self, action: #selector(textFieldTextDidChang), for: .editingChanged)
         disableBtns()
+       
     }
     
     @objc func textFieldTextDidChang() {
